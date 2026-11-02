@@ -1,0 +1,28 @@
+/* CietTune: deliberately old-web styling inspired by 2005-2007 video sites */
+body{margin:0;background:#f5f5f5 url("texture.gif") repeat;font:13px Arial,Helvetica,sans-serif;color:#000}
+.site{width:970px;max-width:98%;margin:0 auto}
+a{color:#00e;text-decoration:underline}
+.top{height:68px;position:relative;padding-top:7px}
+.logo{float:left;width:164px;margin:1px 7px 0 0;font:bold 36px Arial,sans-serif;letter-spacing:-2px;color:#111;text-decoration:none;text-shadow:1px 1px #aaa}
+.logo span{display:inline-block;background:#ffed00;border:1px solid #c4a900;border-radius:3px;color:#111;padding:1px 4px;letter-spacing:-2px}
+.tagline{font-weight:bold;padding-top:3px;margin-left:171px}
+.release{color:red;text-decoration:underline;font-weight:normal}
+.search{margin-top:3px;white-space:nowrap}.search input{width:310px;height:17px;border:3px solid #aaa;border-radius:5px;background:white}.search button{font:13px "Courier New",monospace;color:red;background:#d8edff;border:2px solid #8bbce5;border-radius:4px;padding:2px 8px}
+.account{position:absolute;right:0;top:8px}
+.main-nav{display:flex;gap:2px;height:27px}.main-nav a{flex:1;text-align:center;padding:6px 2px 0;background:linear-gradient(#dff0ff,#70c4ff);border-radius:10px 10px 0 0;font-size:14px}
+.sub-nav{text-align:center;background:#ffdfbd;padding:5px;border-radius:0 0 9px 9px;font-size:14px}
+main{padding:16px 8px 8px}.columns{display:flex;gap:16px;align-items:flex-start}.panel{background:#bbb;border-radius:16px;padding:7px 7px 4px;box-sizing:border-box}.videos-panel{width:61%;}.members-panel{width:39%}
+h2{font-size:25px;text-align:center;color:red;margin:0 0 4px;text-shadow:1px 1px #777}
+.video-grid{display:grid;grid-template-columns:repeat(3,1fr);background:#d9e8f6;border:4px solid #eee;gap:1px}
+.video-cell{border:1px solid #9bb8d1;background:#d5e5f4;text-align:center;padding:5px 3px;font-size:12px;min-width:0}
+.video-thumb{display:block;width:132px;max-width:95%;height:76px;object-fit:contain;background:#e5eef7;margin:0 auto 4px;box-shadow:1px 2px 4px #888}
+.red{color:red}.center{text-align:center}.member-grid{display:grid;grid-template-columns:repeat(2,1fr);background:#d5e5f4;border:4px solid #eee;gap:1px}
+.member-cell{text-align:center;border:1px solid #9bb8d1;padding:5px 2px;background:#d5e5f4;font-size:12px}.avatar{width:74px;height:74px;object-fit:contain;background:#eef3f8}
+.recent-members{margin-top:20px;background:#fff0b0;border:4px solid #fff7d4;border-radius:10px;padding:4px}.recent-members strong{display:block;text-align:center;color:red}.recent-members div{border-bottom:1px dashed #d2c68c;padding:3px}.recent-members span{float:right}
+.tags{margin:20px 8px 0 1%;width:58%;box-sizing:border-box;background:#e3f0d7;border-radius:15px;padding:8px}.tags h3{text-align:center;color:red;margin:0 0 7px;font-size:18px}
+.form-box{width:350px;max-width:95%;margin:4px auto 24px;background:#bbb;border:1px solid #aaa;padding:7px;border-radius:3px;text-align:center}.form-box label{display:inline-block;width:90px;text-align:right;margin:4px}.form-box input,.form-box textarea{width:205px;border:2px solid #ccc;border-radius:5px;padding:4px}.form-box button{width:100%;background:#cdeaff;border:2px solid #78baff;border-radius:5px;color:red;font:13px "Courier New",monospace;padding:4px}
+.listing{background:#d5e5f4;border:5px solid #bbb;border-radius:14px;padding:7px}.listing-nav{text-align:center;margin:0 0 7px}.member-list{display:grid;grid-template-columns:repeat(6,1fr);gap:1px;background:#b4c9dc}.member-list .member-cell{min-height:112px}
+.watch-layout{display:flex;gap:12px}.watch-main{flex:1;min-width:0}.watch-side{width:220px}.player{background:#111;color:#fff;text-align:center;padding:5px;min-height:280px}.player video{width:100%;max-height:420px}.video-info{background:#d5e5f4;border:1px solid #a4bfd8;padding:8px;margin-top:8px}.comment{background:#fff;border:1px solid #ccc;margin:5px 0;padding:6px}
+.empty{text-align:center;padding:18px}.error{color:#c00}.success{color:#070}
+footer{text-align:center;color:#555;padding:16px}
+@media(max-width:700px){.columns,.watch-layout{display:block}.videos-panel,.members-panel,.tags{width:100%;margin:0 0 12px}.main-nav{height:auto;flex-wrap:wrap}.main-nav a{flex:1 1 30%;min-height:22px}.top{height:100px}.logo{font-size:27px;width:130px}.tagline{margin-left:0;clear:both;padding-top:3px}.account{top:8px}.member-list{grid-template-columns:repeat(3,1fr)}.watch-side{width:100%}.video-grid{grid-template-columns:repeat(2,1fr)}}

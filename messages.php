@@ -1,0 +1,1 @@
+<?php require __DIR__.'/config.php';require_login();require __DIR__.'/includes/header.php';?><div class="listing"><h2>My Messages</h2><p class="empty">Private messaging is reserved for the next development stage.</p></div><?php require __DIR__.'/includes/footer.php';?>

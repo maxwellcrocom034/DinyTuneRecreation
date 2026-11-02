@@ -1,0 +1,1 @@
+<?php require __DIR__.'/config.php';require __DIR__.'/includes/header.php';?><div class="listing"><h2>Help</h2><p>Welcome to CietTune. Create an account to upload videos and comment. MP4 is recommended. Server-side conversion requires PHP exec permission and FFmpeg installed on your host.</p></div><?php require __DIR__.'/includes/footer.php';?>

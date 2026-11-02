@@ -1,0 +1,1 @@
+<?php require __DIR__.'/config.php';require __DIR__.'/includes/header.php';?><div class="listing"><h2>Vote</h2><p class="empty">Thanks for visiting CietTune!</p></div><?php require __DIR__.'/includes/footer.php';?>
